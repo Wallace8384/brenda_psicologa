@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Topo{
+    margin: 0px;
+    padding-left: 0px;
+    background: rgb(238, 211, 211);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+span{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 0.8;
+          
+}
+img{
+    width: 250px;
+    height: 250px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid rgb(12, 9, 9);
+  border-radius: 50%;
+}
+
+.Meio{
+    background: rgb(161, 150, 150);
+}
+h2{
+    text-align: center;
+    
+}
+.Autor{
+    font-size: 12px;
+}
+h3{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: rgb(99, 2, 2);
+}
+
+.caixa{
+    margin: 15px;
+    width: 250px;
+    height: 165px;
+    background: rgb(126, 91, 91);
+}
+li{
+    margin-top: 5px;
+    margin-left: 35px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    color: beige;
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(48, 65, 160);
+    letter-spacing: 5px;
+}
+.subtitulo{
+    font-size: 15px;
+}
+
+.Contato{
+    
+   text-align: center;
+    box-sizing: border-box;
+  
+}
+input{
+    width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(62, 60, 145);
+  border-radius: 4px;
+  background-color: rgb(97, 44, 44);
+  color: white;
+}
+textarea {
+    width: 40%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(97, 44, 44);
+    resize: none;
+  }
+  .botao {
+    transition-duration: 0.4s;
+    width: 250px;
+    height: 50px;
+    border: 3px solid green;
+    border-radius: 20%;
+  }
+  
+  .botao:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  footer{
+    background: rgb(110, 110, 160);
+  }
+  h6{
+    margin: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .tel{
+    width: 50px;
+    height: 50px;
+  }
